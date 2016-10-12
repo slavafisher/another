@@ -1,0 +1,103 @@
+body {
+    background-image: url(http://weblabfon.com/_ld/3/327_0319.jpg);
+    text-align: center;
+    
+    
+}
+#toplogo {    
+    height: 550px;
+     background-image: url(http://67.media.tumblr.com/db87921987ff05ee2b6d4128acb98694/tumblr_nrh1j6sNZA1slhhf0o1_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    width: 81%;
+    margin-left: 9%;
+}
+   
+#textblock {    
+    padding-top: 27%;
+}
+
+#fb {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-image: url(https://static1.squarespace.com/static/54073cece4b0bf6cd12bf4c9/546cbe58e4b0372616444ea5/546cbe59e4b009b64317cb63/1416413024642/FB.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#vk {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-image: url(http://www.freeiconspng.com/uploads/vk-icon-png-8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#inst {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-image: url(http://download.seaicons.com/icons/icons8/windows-8/512/Social-Networks-Instagram-icon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+a {
+    width: 99%;
+    height: 99%;
+    display: block;
+}
+
+#main_content {
+        width: 81%;
+        display: block;
+        margin-left: 9%;
+}
+
+.content {
+    width: 49%;
+    display: inline-block;
+    height: 150px;
+    text-align: center;
+    color: white;
+    
+}
+
+#about_me {
+    background-image: url(https://pp.vk.me/c637428/v637428606/985f/Buf799sAev4.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+#portfolio {
+    background-image: url(http://www.turbonigeria.com/wp-content/uploads/2015/02/portfolioBG.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+#skills {
+    background-image: url(http://www.cedefop.europa.eu/files/images/identyfying_skills_needs_360x240.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+#contact {
+    background-image: url(http://slashsquare.org/wp-content/uploads/2011/12/Contact-Slashsquare.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
