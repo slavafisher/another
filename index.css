@@ -15,7 +15,10 @@ body {
 }
    
 #textblock {    
-    padding-top: 27%;
+    display: inline-block;
+    margin-top: 15%;
+    width: 50%;
+    margin-left: 50%;
 }
 
 #fb {
