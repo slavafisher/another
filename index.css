@@ -62,7 +62,7 @@ a {
 .content {
     width: 49%;
     display: inline-block;
-    height: 150px;
+    height: 250px;
     text-align: center;
     color: white;
     
@@ -103,4 +103,40 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
     display: inline-block;
+}
+#svg1 {
+    background-image: url(man.png);
+        margin: 0;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+#svg2 {
+    background-image: url(folder.png);
+        margin: 0;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+#svg3 {
+    background-image: url(rowing.png);
+        margin: 0;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+#svg4 {
+    background-image: url(user.png);
+        margin: 0;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+h2 {
+       font-style: italic;
+    font-size: 35px;
+    margin: 0;
+    font-family: cursive;
+    background-color: steelblue;
+    opacity: 0.8;
 }
