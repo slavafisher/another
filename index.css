@@ -5,7 +5,7 @@ body {
     
 }
 #toplogo {    
-    height: 550px;
+    height: 650px;
      background-image: url(http://67.media.tumblr.com/db87921987ff05ee2b6d4128acb98694/tumblr_nrh1j6sNZA1slhhf0o1_1280.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -62,12 +62,16 @@ a {
 .content {
     width: 49%;
     display: inline-block;
-    height: 250px;
+    height: 300px;
     text-align: center;
     color: white;
     
 }
 
+.content:hover {
+    background-color: silver;
+    opacity: 0.9;
+}
 #about_me {
     background-image: url(https://pp.vk.me/c637428/v637428606/985f/Buf799sAev4.jpg);
     width: 100%;
@@ -107,29 +111,41 @@ a {
 #svg1 {
     background-image: url(man.png);
         margin: 0;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    background-repeat: no-repeat;
+    opacity: 0.4;
     background-size: contain;
 }
 #svg2 {
     background-image: url(folder.png);
         margin: 0;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 80%;
+    background-color: gray;
+    background-repeat: no-repeat;
+    opacity: 0.4;
     background-size: contain;
 }
 #svg3 {
     background-image: url(rowing.png);
         margin: 0;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 80%;
+    background-color: silver;
+    background-repeat: no-repeat;
+    opacity: 0.4;
     background-size: contain;
 }
 #svg4 {
     background-image: url(user.png);
         margin: 0;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    background-repeat: no-repeat;
+    opacity: 0.4;
     background-size: contain;
 }
 h2 {
@@ -139,4 +155,44 @@ h2 {
     font-family: cursive;
     background-color: steelblue;
     opacity: 0.8;
+}
+ol, ul { list-style: none; }
+.main-ul li {
+     background-color: black;
+ opacity: 0.7;
+ float:left;
+ position:relative;
+ width:19%;
+ text-align:center;
+ }
+ .main-ul li a {
+ display:block;
+ text-decoration:none;
+ position: relative;
+ z-index: 100;
+
+ -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+ }
+ .main-ul li a span{
+ display:block;
+ padding-top:10px;
+ font-weight:700;
+ font-size: 30px;
+ color: white;
+ text-transform:uppercase;
+ font-family: 'Kotta One', serif;
+ }
+.main-ul li:hover span{
+ color: silver;
+}
+#about {
+    margin-left: 12%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 75%;
+    font-size: 25px;
 }
