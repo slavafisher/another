@@ -1,14 +1,19 @@
 body {
-    background-image: url(http://weblabfon.com/_ld/3/327_0319.jpg);
+    max-width: 1200px;
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Tilable-Pattern-For-Website-Background.jpg);
+   
+}
+
+    
+header {
+    background-image: url(http://www.computertech.systems/media/images/backgrounds/datacenter.jpg);
     text-align: center;
-    
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 12%;
 }
 #toplogo {    
     height: 650px;
-     background-image: url(http://67.media.tumblr.com/db87921987ff05ee2b6d4128acb98694/tumblr_nrh1j6sNZA1slhhf0o1_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     text-align: center;
     width: 81%;
     margin-left: 9%;
@@ -16,9 +21,9 @@ body {
    
 #textblock {    
     display: inline-block;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 50%;
-    margin-left: 50%;
+    margin-left: 0;
 }
 
 #fb {
@@ -52,11 +57,16 @@ a {
     height: 99%;
     display: block;
 }
-
+section{
+    margin-left: 12%;
+     background-image: url(http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #main_content {
-        width: 81%;
-        display: block;
-        margin-left: 9%;
+    width: 81%;
+    display: block;
+    margin-left: 9%;
 }
 
 .content {
@@ -78,7 +88,7 @@ a {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: inline-block;
 }
 #portfolio {
@@ -87,7 +97,7 @@ a {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: inline-block;
 }
 #skills {
@@ -96,16 +106,15 @@ a {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: inline-block;
 }
 #contact {
-    background-image: url(http://slashsquare.org/wp-content/uploads/2011/12/Contact-Slashsquare.jpg);
+    background-image: url(http://www.induscorprinters.com/img/contact_form_background1.png);
     width: 100%;
     height: 100%;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: inline-block;
 }
 #svg1 {
@@ -153,10 +162,13 @@ h2 {
     font-size: 35px;
     margin: 0;
     font-family: cursive;
-    background-color: steelblue;
+    background-color: black;
     opacity: 0.8;
 }
-ol, ul { list-style: none; }
+ol, ul { list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .main-ul li {
      background-color: black;
  opacity: 0.7;
@@ -180,7 +192,7 @@ ol, ul { list-style: none; }
  display:block;
  padding-top:10px;
  font-weight:700;
- font-size: 30px;
+ font-size: 25px;
  color: white;
  text-transform:uppercase;
  font-family: 'Kotta One', serif;
@@ -189,10 +201,25 @@ ol, ul { list-style: none; }
  color: silver;
 }
 #about {
-    margin-left: 12%;
     text-align: center;
-    background-color: white;
     color: black;
-    width: 75%;
     font-size: 25px;
+}
+footer {
+    background-image: url(http://www.designzzz.com/wp-content/uploads/2011/08/22.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: 12%;
+   
+}
+
+nav {
+        margin-left: 12%;
+    height: 50px;
+}
+.box {
+    width: 50%;
+    display: inline-block;
 }
