@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <nav>
+           <ul class="main-ul">
+ 
+            <li><a href="index.html"><span>Main Page</span></a></li>
+            <li><a href="#"><span>About Me</span></a></li>
+            <li><a href="#"><span>Portfolio</span></a></li>
+            <li><a href="#"><span>Contacts</span></a></li>
+            <li><a href="#"><span>Feedback</span></a></li>
+ 
+            </ul>
+            </nav>
+ <div class="headers">   
+<h1>Contacts</h1>
+<div id="fb">
+                    <a href="https://www.facebook.com/WhiteWalker2"></a>
+                </div>
+                <div id="vk">
+                    <a href="https://vk.com/blyad_pizdec"/></a>
+                </div>
+                <div id="inst">
+                    <a href="https://www.instagram.com/slavafisherrr"/></a>
+                </div>
+</div>
+
+<section>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<div id="map">
+    <div id='gmap_canvas' style='height:440px;width:900px;'></div>
+    <div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div>
+    <div><small><a href="http://buyproxies.io/">elite proxies</a></small></div>
+    <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+    </div>
+    <script type='text/javascript'>function init_map()
+    {var myOptions = {zoom:10,center:new google.maps.LatLng(49.85340900678825,24.444450886718744),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.85340900678825,24.444450886718744)});infowindow = new google.maps.InfoWindow({content:'<strong>Me Here</strong><br>Ukraine Lviv<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</section>
+</body>
+</html>

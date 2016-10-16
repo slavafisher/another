@@ -1,7 +1,7 @@
 body {
-    max-width: 1200px;
     background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Tilable-Pattern-For-Website-Background.jpg);
-   
+    margin: 0;
+    
 }
 
     
@@ -11,6 +11,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 12%;
+    width: 75%;
 }
 #toplogo {    
     height: 650px;
@@ -62,6 +63,8 @@ section{
      background-image: url(http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 75%;
+    text-align: center;
 }
 #main_content {
     width: 81%;
@@ -192,7 +195,7 @@ ol, ul { list-style: none;
  display:block;
  padding-top:10px;
  font-weight:700;
- font-size: 25px;
+ font-size: 20px;
  color: white;
  text-transform:uppercase;
  font-family: 'Kotta One', serif;
@@ -211,15 +214,40 @@ footer {
     text-align: center;
     background-repeat: no-repeat;
     color: white;
-    margin-left: 12%;
+    width: 100%;
    
 }
 
 nav {
-        margin-left: 12%;
+        margin-left: 9%;
     height: 50px;
 }
-.box {
-    width: 50%;
+
+.for_car {
+    background-color: black;
+    opacity: 0.8;
+    font-size: 17px;
+}
+#myCarousel{
+     background-image: url(http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    opacity: 0.8;
+}
+.headers {
+    display: block;
+    margin-left: 12%;
+    width: 75%;
+    text-align: center;
+}
+#map {
+    overflow: hidden;
+    height: 440px;
+    width: 100%;
+    text-align: center;
     display: inline-block;
+    opacity: 0.9;
+    margin-left: 6%;
 }
