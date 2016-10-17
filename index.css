@@ -6,7 +6,7 @@ body {
 
     
 header {
-    background-image: url(http://www.computertech.systems/media/images/backgrounds/datacenter.jpg);
+    background-image: url(http://i075.radikal.ru/1610/d2/52e7834bc30a.jpg);
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,12 +209,8 @@ ol, ul { list-style: none;
     font-size: 25px;
 }
 footer {
-    background-image: url(http://www.designzzz.com/wp-content/uploads/2011/08/22.jpg);
-    background-size: cover;
-    text-align: center;
-    background-repeat: no-repeat;
+  
     color: white;
-    width: 100%;
    
 }
 
@@ -249,5 +245,21 @@ img {
     text-align: center;
     display: inline-block;
     opacity: 0.9;
-    margin-left: 6%;
+}
+#footer {
+      margin-left: 12%;
+    width: 75%;
+    display: block;
+    background-color: gray;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+}
+#footer1 {
+    width: 49%;
+    display: inline-block;
+}
+#footer2 {
+    width: 49%;
+    display: inline-block;
 }
