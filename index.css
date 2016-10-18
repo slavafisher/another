@@ -241,8 +241,7 @@ img {
     width: 75%;
     margin-top: 50px;
     text-align: center;
-    background-color: white;
-    opacity: 0.6;
+
 }
 #map {
     overflow: hidden;
@@ -266,4 +265,8 @@ img {
 #footer2 {
     width: 49%;
     display: inline-block;
+}
+form {
+    background-color: white;
+    opacity: 0.6;
 }
