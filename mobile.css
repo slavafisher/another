@@ -1,6 +1,7 @@
 body {
     background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Tilable-Pattern-For-Website-Background.jpg);
     margin: 0;
+    max-width: 320px;
     
 }
 
@@ -10,20 +11,20 @@ header {
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 12%;
-    width: 75%;
+    margin-left: 0;
+    width: 100%;
 }
-#toplogo {    
+#toplogo {  
+    margin: 0;
+    width: 100%;
     height: 650px;
     text-align: center;
-    width: 81%;
-    margin-left: 9%;
+
 }
    
 #textblock {    
     display: inline-block;
     margin-top: 10%;
-    width: 50%;
     margin-left: 0;
 }
 
@@ -59,25 +60,28 @@ a {
     display: block;
 }
 section{
-    margin-left: 12%;
+  
      background-image: url(http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 75%;
     text-align: center;
+    margin-left: 0;
+    margin-top: 130px;
+    width: 100%;
 }
 #main_content {
-    width: 81%;
     display: block;
-    margin-left: 9%;
+    margin: 0;
+   width: 100%;
 }
 
 .content {
-    width: 49%;
-    display: inline-block;
+  
+    display: block;
     height: 300px;
     text-align: center;
     color: white;
+    width: 100%;
     
 }
 
@@ -175,9 +179,8 @@ ol, ul { list-style: none;
 .main-ul li {
      background-color: black;
  opacity: 0.7;
- float:left;
  position:relative;
- width:19%;
+ width: 100%;
  text-align:center;
  }
  .main-ul li a {
@@ -209,17 +212,18 @@ ol, ul { list-style: none;
     font-size: 25px;
 }
 footer {
-  
+  width: 100%;
+  margin: 0;
     color: white;
    
 }
 
 nav {
-            margin-left: 12%;
+    width: 100%;
+    margin: 0;
     height: 50px;
-    position: fixed;
+    position: relative;
     top: 0%;
-    width: 75%;
 }
 
 .for_car {
@@ -237,10 +241,10 @@ img {
 }
 .headers {
     display: block;
-    margin-left: 12%;
-    width: 75%;
     margin-top: 50px;
     text-align: center;
+    margin: 0;
+    width: 100%;
 }
 #map {
     overflow: hidden;
@@ -251,8 +255,8 @@ img {
     opacity: 0.9;
 }
 #footer {
-      margin-left: 12%;
-    width: 75%;
+    margin: 0;
+    width: 100%;
     display: block;
     background-color: gray;
     text-align: center;
